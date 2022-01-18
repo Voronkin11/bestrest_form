@@ -1,0 +1,13 @@
+.logo {
+    max-width: 190px;
+    outline: none;
+    
+    &__img {
+        width: 100%;
+        height: auto;
+
+        @media (max-width: 576px) {
+            max-width: 120px;
+        }
+    }
+}
